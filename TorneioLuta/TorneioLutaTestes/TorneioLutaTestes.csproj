@@ -5,7 +5,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{1C0158DA-F30B-4B6B-B138-A43D1D11C89A}</ProjectGuid>
+    <ProjectGuid>{92BFB51F-B107-4100-9E6D-3D9FB452D8FB}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>TorneioLutaTestes</RootNamespace>
@@ -49,11 +49,11 @@
     <Reference Include="System.Core" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="TorneioLutaTestesCampeonato.cs" />
     <Compile Include="TorneioLutaTestesGrupo.cs" />
-    <Compile Include="TorneioLutaTestesPartida.cs" />
     <Compile Include="TorneioLutaTestesLutador.cs" />
-    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TorneioLutaTestesPartida.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

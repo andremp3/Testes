@@ -11,7 +11,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TorneioLutaWebClient", "Tor
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TorneioLutaFactory", "TorneioLutaFactory\TorneioLutaFactory.csproj", "{6B5313AA-C9E8-40A9-9D47-20109349B903}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TorneioLutaTestes", "TorneioLutaTestes\TorneioLutaTestes.csproj", "{1C0158DA-F30B-4B6B-B138-A43D1D11C89A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TorneioLutaTestes", "TorneioLutaTestes\TorneioLutaTestes.csproj", "{92BFB51F-B107-4100-9E6D-3D9FB452D8FB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -35,10 +35,10 @@ Global
 		{6B5313AA-C9E8-40A9-9D47-20109349B903}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6B5313AA-C9E8-40A9-9D47-20109349B903}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6B5313AA-C9E8-40A9-9D47-20109349B903}.Release|Any CPU.Build.0 = Release|Any CPU
-		{1C0158DA-F30B-4B6B-B138-A43D1D11C89A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{1C0158DA-F30B-4B6B-B138-A43D1D11C89A}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{1C0158DA-F30B-4B6B-B138-A43D1D11C89A}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{1C0158DA-F30B-4B6B-B138-A43D1D11C89A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{92BFB51F-B107-4100-9E6D-3D9FB452D8FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{92BFB51F-B107-4100-9E6D-3D9FB452D8FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{92BFB51F-B107-4100-9E6D-3D9FB452D8FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{92BFB51F-B107-4100-9E6D-3D9FB452D8FB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
