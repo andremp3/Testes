@@ -1,0 +1,26 @@
+﻿@model TorneioLutaDominio.Campeonato
+@{
+    ViewBag.Title = "Resultado Torneio de Luta";
+}
+
+<div class="panel panel-default" style="height: 90px;">
+    <div class="panel-heading">
+        <h2 style="text-align: center;">@ViewBag.Title</h2>
+    </div>
+</div>
+
+<div class="card" style="width: 250px; ">
+    <div class="card-header">Campeão</div>
+    <div class="card-body"><span><b>@Model.Campeao.Nome</b></span></div>
+</div>
+
+<div class="card" style="width: 250px;">
+    <div class="card-header">Segundo</div>
+    <div class="card-body"><span><b>@Model.Segundo.Nome</b></span></div>
+</div>
+
+<div class="card" style="width: 250px;">
+    <div class="card-header">Terceiro</div>
+    <div class="card-body"><span><b>@Model.Terceiro.Nome</b></span></div>
+</div>
+

@@ -1,0 +1,47 @@
+﻿@model IEnumerable<TorneioLutaDominio.Lutador>
+@{
+    ViewBag.Title = "Torneio de Luta";
+}
+
+<div class="panel panel-default" style="height: 90px;">
+    <div class="panel-heading">
+        <h2 style="text-align: center;">@ViewBag.Title</h2>
+    </div>
+</div>
+
+@using (Html.BeginForm("IniciarTorneio", "Torneio"))
+{
+
+    <div class="form-group">
+        <input type="submit" class="btn btn-primary" value="Iniciar" id="btn-Iniciar" />
+    </div>
+
+    <div class="card-columns" style="column-count: 4">
+
+        @foreach (var Lutador in Model)
+        {
+
+            <div class="card" style="width: 250px;">
+                <div class="card-header">
+                    <div class="checkbox">
+                        &nbsp;
+                        <input type="checkbox" class="custom-control-input" name="LutadoresSelecionados" value="@Lutador.Id" id="CheckLutador@(Lutador.Id)" />
+                        <label class="custom-control-label" for="CheckLutador@(Lutador.Id)" style="cursor: pointer;">@Lutador.Nome</label>
+                    </div>
+                </div>
+                <div class="card-body">
+                    <span><b>Idade:</b> @Lutador.Idade</span><br />
+                    <span><b>Lutas:</b> @Lutador.Lutas</span><br />
+                    <span><b>Derrotas:</b> @Lutador.Derrotas</span><br />
+                    <span><b>Vitórias:</b> @Lutador.Vitorias</span><br />
+                    <span><b>Artes Marciais:</b> @Lutador.ArtesMarciais.Count</span>
+                </div>
+            </div>
+        }
+
+    </div>
+}
+
+
+@Scripts.Render("~/scripts/jquery-3.3.1.min.js")
+@Scripts.Render("~/scripts/Torneio/ValidacaoTorneio.js")
